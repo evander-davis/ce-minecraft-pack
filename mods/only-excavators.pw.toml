@@ -1,0 +1,13 @@
+name = "Only Excavators"
+filename = "onlyexcavators-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xkayuCFC/versions/QIJweZBm/onlyexcavators-1.21.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "6769b5d141ce57f7e16368f621a0676786c20b22c290d8ea2e6c3bc38bccff300f8386b2d9dd2e2b15d12275af40b332c301129709362e44ff19a866505e0a59"
+
+[update]
+[update.modrinth]
+mod-id = "xkayuCFC"
+version = "QIJweZBm"

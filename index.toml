@@ -2027,8 +2027,8 @@ hash = "966dde29551f96d0cdec76c659bdec9b5a16c4a102ed053cb5a6e1e36860c75a"
 metafile = true
 
 [[files]]
-file = "mods/only-hammers-and-excavators.pw.toml"
-hash = "f2b7a9fc939bf99d26008ef2299888b47c455d12179c8ecafaafcd5d89d14bb0"
+file = "mods/only-excavators.pw.toml"
+hash = "915b8387fa99bcc64619b64610be356865ad6dd4e7880167c137cf55e74643f4"
 metafile = true
 
 [[files]]
