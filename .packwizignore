@@ -6,6 +6,7 @@
 .nojekyll
 .packwizignore
 README.md
+AGENTS.md
 Invoke-Packwiz.ps1
 Test-Pack.ps1
 Build-Prism-Starter.ps1

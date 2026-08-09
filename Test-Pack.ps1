@@ -10,6 +10,10 @@ $indexedPaths = Select-String -LiteralPath $indexPath -Pattern '^file = "(.+)"$'
     ForEach-Object { $_.Matches[0].Groups[1].Value.Replace('\', '/') }
 
 $forbiddenPrefixes = @(
+    '.git/',
+    '.github/',
+    'dist/',
+    'prism/',
     'xaero/',
     'shaderpacks/',
     'saves/',
@@ -22,6 +26,15 @@ $forbiddenPrefixes = @(
 )
 
 $forbiddenFiles = @(
+    '.gitattributes',
+    '.gitignore',
+    '.nojekyll',
+    '.packwizignore',
+    'AGENTS.md',
+    'Build-Prism-Starter.ps1',
+    'Invoke-Packwiz.ps1',
+    'README.md',
+    'Test-Pack.ps1',
     'options.txt',
     'servers.dat',
     'config/iris.properties',
@@ -38,7 +51,7 @@ $violations = $indexedPaths | Where-Object {
 }
 
 if ($violations) {
-    throw "Personal/runtime files are indexed:`n$($violations -join "`n")"
+    throw "Personal, runtime, or repository-only files are indexed:`n$($violations -join "`n")"
 }
 
 $metadataCount = (Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'mods') -Filter '*.pw.toml' -File).Count
