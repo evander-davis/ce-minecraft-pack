@@ -63,14 +63,48 @@ function Copy-CeFile {
     Write-CeLog "Copied file: $RelativePath"
 }
 
+function Copy-CeRestrictedMod {
+    param(
+        [string] $SourceRoot,
+        [string] $FileName,
+        [string] $Sha1
+    )
+
+    $sourcePath = Join-Path (Join-Path $SourceRoot 'mods') $FileName
+    $destinationPath = Join-Path (Join-Path $InstanceDir 'mods') $FileName
+
+    if (Test-Path -LiteralPath $destinationPath -PathType Leaf) {
+        if ((Get-FileHash -Algorithm SHA1 -LiteralPath $destinationPath).Hash -eq $Sha1) {
+            return
+        }
+
+        Write-CeLog "A different local file already uses the restricted-mod filename: $FileName"
+        return
+    }
+
+    if (-not (Test-Path -LiteralPath $sourcePath -PathType Leaf)) {
+        Write-CeLog "Restricted mod was not found in the CurseForge profile: $FileName"
+        return
+    }
+
+    if ((Get-FileHash -Algorithm SHA1 -LiteralPath $sourcePath).Hash -ne $Sha1) {
+        Write-CeLog "Restricted mod in the CurseForge profile has an unexpected hash: $FileName"
+        return
+    }
+
+    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $destinationPath) | Out-Null
+    Copy-Item -LiteralPath $sourcePath -Destination $destinationPath
+    Write-CeLog "Copied locally installed restricted mod: $FileName"
+}
+
+$candidateRoots = @(
+    (Join-Path $env:USERPROFILE 'curseforge\minecraft\Instances\C&E 1.21.1'),
+    (Join-Path $env:USERPROFILE 'Documents\Curse\Minecraft\Instances\C&E 1.21.1')
+)
+$sourceRoot = $candidateRoots | Where-Object { Test-Path -LiteralPath $_ -PathType Container } | Select-Object -First 1
+
 if (-not (Test-Path -LiteralPath $markerPath -PathType Leaf)) {
     try {
-        $candidateRoots = @(
-            (Join-Path $env:USERPROFILE 'curseforge\minecraft\Instances\C&E 1.21.1'),
-            (Join-Path $env:USERPROFILE 'Documents\Curse\Minecraft\Instances\C&E 1.21.1')
-        )
-
-        $sourceRoot = $candidateRoots | Where-Object { Test-Path -LiteralPath $_ -PathType Container } | Select-Object -First 1
         if ($sourceRoot) {
             Write-CeLog "Migrating personal data from: $sourceRoot"
 
@@ -103,6 +137,20 @@ if (-not (Test-Path -LiteralPath $markerPath -PathType Leaf)) {
     }
     catch {
         Write-CeLog "Personal-data migration failed but pack update will continue: $($_.Exception.Message)"
+    }
+}
+
+if ($sourceRoot) {
+    try {
+        @(
+            @('create-otbwg-compat-1.0.jar', '39F257A8A0251A0BA838D354FFFC439850DB123C'),
+            @('MysticalExtendedTier-1.2.1.1-0.9.6.jar', 'B7343E1AB724DB875B63C37C159316104FDEDB55')
+        ) | ForEach-Object {
+            Copy-CeRestrictedMod -SourceRoot $sourceRoot -FileName $_[0] -Sha1 $_[1]
+        }
+    }
+    catch {
+        Write-CeLog "Restricted-mod copy failed but pack update will continue: $($_.Exception.Message)"
     }
 }
 

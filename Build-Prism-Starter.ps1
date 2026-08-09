@@ -20,7 +20,7 @@ if (Test-Path -LiteralPath $stagingRoot) {
 New-Item -ItemType Directory -Force -Path $minecraftRoot | Out-Null
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'prism\instance.cfg') -Destination $stagingRoot
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'prism\mmc-pack.json') -Destination $stagingRoot
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'prism\minecraft\ce-prelaunch.ps1') -Destination $minecraftRoot
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'ce-prelaunch.ps1') -Destination $minecraftRoot
 Invoke-WebRequest -Uri $bootstrapUrl -OutFile (Join-Path $minecraftRoot 'packwiz-installer-bootstrap.jar')
 
 if (Test-Path -LiteralPath $outputPath) {

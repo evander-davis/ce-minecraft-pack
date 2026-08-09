@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "ce-prelaunch.ps1"
+hash = "094d63d974e3962b95bdb6135d12712141d3f32296b5b07b591c515d3ae91309"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -1530,13 +1534,13 @@ hash = "8c6d5170ca4f3e42a3ff45ec2891a24fef98ab136f3e427fc34af23564d9e7dc"
 metafile = true
 
 [[files]]
-file = "mods/awesome-dungeon-edition-ocean-neoforge.pw.toml"
-hash = "474c38967570b3fdc38027320aba70cd54727e4137dcc5b93b5f303685008c37"
+file = "mods/awesome-dungeon-edition-ocean.pw.toml"
+hash = "9bbb47764b49ec4d0cc745da374cbc6a5aaeeaddb914759c86845cfbfadee1fe"
 metafile = true
 
 [[files]]
-file = "mods/awesome-dungeon-neoforge.pw.toml"
-hash = "cb008854936f47474d1445ba0b2589dd2eadd618349d7aca92073523d6eab39a"
+file = "mods/awesome-dungeon.pw.toml"
+hash = "3d360591d88d1cd6abf7ea5d9da21c253c22544388bbf3534aa736905bef5735"
 metafile = true
 
 [[files]]
@@ -1695,7 +1699,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "346f28e2ec19543a6b410bf2cf5389401bc6d1aa0189e39d07bf11d64d8bd321"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
@@ -1854,8 +1858,8 @@ hash = "5fe986225bb3dac6e7e4dc19d4d1c6d0e7a1ece5e7e07999bf17ddccf09f6348"
 metafile = true
 
 [[files]]
-file = "mods/library-ferret-neoforge.pw.toml"
-hash = "6568975091d861763aac4c0fe03863e9659f9944308b2ab941472b887b023a05"
+file = "mods/library-ferret.pw.toml"
+hash = "599c8c37e60b9f1fbfb29d10eb9ede3d174b72287b9fbe407e90b6417a27a441"
 metafile = true
 
 [[files]]
@@ -2024,7 +2028,7 @@ metafile = true
 
 [[files]]
 file = "mods/only-hammers-and-excavators.pw.toml"
-hash = "6661c6aa852aaef1ca2b0ca5556a38e41c5760c824da25955816075e247b7c69"
+hash = "f2b7a9fc939bf99d26008ef2299888b47c455d12179c8ecafaafcd5d89d14bb0"
 metafile = true
 
 [[files]]
@@ -2188,8 +2192,8 @@ hash = "d9a5b02ffd50154e99ef15135e2929282055071efd75fee2b510bf9acb734148"
 metafile = true
 
 [[files]]
-file = "mods/trek-mod.pw.toml"
-hash = "2f617fe7fbd10894ef4f306fb3cfa1d690489f77635364fe17762b4c48e61dce"
+file = "mods/trek.pw.toml"
+hash = "856519bd5d0f0736c86a2ebbc833b8499075be4b1d6613988f4e5104ba2d9a32"
 metafile = true
 
 [[files]]

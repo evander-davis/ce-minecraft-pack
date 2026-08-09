@@ -9,6 +9,7 @@ These instructions apply to every change in this repository.
 - Tested pack releases go to `origin/main`. GitHub Pages serves the repository root from `main`.
 - The production packwiz URL is `https://evander-davis.github.io/ce-minecraft-pack/pack.toml`.
 - The checked-in Prism starter source is under `prism/`. Generated Prism ZIPs belong under ignored `dist/` and, when released, as GitHub Release assets.
+- The runtime pre-launch script is `ce-prelaunch.ps1` at the repository root. Packwiz manages it after the first successful install, and the Prism starter builder copies it into new instances.
 
 ## Required update process
 
@@ -57,7 +58,9 @@ Keep these exclusions in `.packwizignore`, and extend `Test-Pack.ps1` whenever a
 - Preserve `.gitattributes` behavior. Packwiz hashes the exact hosted bytes, so broad Git line-ending normalization can invalidate downloads.
 - Do not commit `dist/`, the downloaded bootstrap JAR, packwiz caches, personal instances, or CurseForge exports.
 - Do not upload third-party CurseForge-hosted JARs directly when their packwiz `.pw.toml` metadata works. The C&E custom compatibility JARs may be committed because the public repository is their distribution source.
-- Do not rename or move the production `pack.toml` without updating `prism/minecraft/ce-prelaunch.ps1` and testing a fresh Prism import.
+- Prefer an author's official Modrinth release when CurseForge blocks automatic third-party downloads. For a restricted mod with no official alternate host, preserve the CurseForge metadata and have `ce-prelaunch.ps1` copy an exact, hash-verified JAR from the player's existing CurseForge profile. Never commit or rehost a restricted third-party JAR.
+- When a locally copied restricted mod is updated, change its filename and SHA-1 in `ce-prelaunch.ps1` together with its `.pw.toml`, then test both an existing instance and a fresh starter import.
+- Do not rename or move the production `pack.toml` without updating `ce-prelaunch.ps1` and testing a fresh Prism import.
 - Preserve the one-time migration's copy-only behavior. It must never move or delete data from the CurseForge profile.
 
 ## Compatibility target
