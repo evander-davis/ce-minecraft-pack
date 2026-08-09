@@ -1,0 +1,13 @@
+name = "Sky Whale Ship"
+filename = "sky_whale_ship-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e2cba680535a5900b83fa4a4dd9f332141a36b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7177858
+project-id = 1214459

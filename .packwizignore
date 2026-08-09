@@ -1,0 +1,44 @@
+# Repository and author-only files
+.git/
+.github/
+.gitattributes
+.gitignore
+.nojekyll
+.packwizignore
+README.md
+Invoke-Packwiz.ps1
+Test-Pack.ps1
+*.zip
+*.mrpack
+
+# Minecraft runtime and personal state. These must stay local to each player.
+/options.txt
+/servers.dat
+/usercache.json
+/usernamecache.json
+/command_history.txt
+/.curseclient
+/minecraftinstance.json
+/user-prefs.json
+/xaero/
+/shaderpacks/
+/saves/
+/screenshots/
+/schematics/
+/backups/
+/logs/
+/crash-reports/
+/downloads/
+/particular_cache/
+/.mixin.out/
+
+# Generated or player-specific mod state.
+/config/ars_nouveau/search_index/
+/config/inventoryprofilesnext/
+/config/jei/world/
+/config/iris.properties
+/config/resourceful-config-web.json
+/config/sodium-fingerprint.json
+/config/xaero/
+/config/xaerohud.txt
+/config/xaeropatreon.txt

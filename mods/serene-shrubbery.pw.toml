@@ -1,0 +1,13 @@
+name = "Serene Shrubbery"
+filename = "SereneShrubbery-NeoForge-1.21.1-v2.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "298d456b9520a9b883af0f9fb4fbf71806594f60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8134790
+project-id = 473451

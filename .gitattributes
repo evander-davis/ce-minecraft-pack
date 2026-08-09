@@ -1,0 +1,13 @@
+# Packwiz hashes the exact published bytes. Do not let Git rewrite pack files.
+* -text
+
+# Author-only files are not part of the pack index and may use stable LF endings.
+*.md text eol=lf
+*.ps1 text eol=lf
+
+# Binary pack content
+*.jar binary
+*.png binary
+*.webp binary
+*.zip binary
+*.mrpack binary

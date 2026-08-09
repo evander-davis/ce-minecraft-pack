@@ -1,0 +1,14 @@
+# Generated exports
+*.mrpack
+*.zip
+
+# Local test/runtime output
+.packwiz/
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

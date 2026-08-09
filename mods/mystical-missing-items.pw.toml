@@ -1,0 +1,13 @@
+name = "Mystical Missing Items"
+filename = "mystical_missing_items-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e8e1c07d7ca6721b01b082372a8adc3c59e7c8b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8061595
+project-id = 1385755

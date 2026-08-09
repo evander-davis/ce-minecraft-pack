@@ -1,0 +1,13 @@
+name = "Crops Love Rain"
+filename = "cropsloverain-3.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "43c8ac81b90089d1b7825d7ab9465d440996fc95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7812918
+project-id = 580294

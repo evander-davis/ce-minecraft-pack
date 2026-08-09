@@ -1,0 +1,13 @@
+name = "Mystical Extended Tier"
+filename = "MysticalExtendedTier-1.2.1.1-0.9.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7343e1ab724db875b63c37c159316104fdedb55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7199300
+project-id = 1232977

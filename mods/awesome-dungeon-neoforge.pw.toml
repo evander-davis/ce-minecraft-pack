@@ -1,0 +1,13 @@
+name = "Awesome Dungeon - NeoForge"
+filename = "awesomedungeon-neoforge-1.21.1-3.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6459a9a8a77c5eeadadab951756e02d2e5072bbd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6265989
+project-id = 530465

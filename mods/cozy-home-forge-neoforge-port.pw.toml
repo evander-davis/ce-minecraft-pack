@@ -1,0 +1,13 @@
+name = "Cozy Home [Forge/NeoForge Port]"
+filename = "CozyHome-NeoForge-1.21.1-v1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "107a57152245c32d1bea19792883a1b0be1e3bf1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8411623
+project-id = 1565761
