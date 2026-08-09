@@ -24,6 +24,14 @@ if (-not (Test-Path -LiteralPath $JavaPath -PathType Leaf)) {
     throw "Prism's configured Java executable was not found: $JavaPath"
 }
 
+# Prism normally records javaw.exe on Windows. PowerShell does not wait for GUI
+# executables, which can let Minecraft start while packwiz is still writing mods.
+# Use the console executable from the same runtime so the pre-launch hook blocks.
+$consoleJavaPath = Join-Path (Split-Path -Parent $JavaPath) 'java.exe'
+if (Test-Path -LiteralPath $consoleJavaPath -PathType Leaf) {
+    $JavaPath = $consoleJavaPath
+}
+
 function Write-CeLog {
     param([string] $Message)
     Add-Content -LiteralPath $logPath -Value "[$(Get-Date -Format o)] $Message"
@@ -161,9 +169,13 @@ if (-not (Test-Path -LiteralPath $bootstrapPath -PathType Leaf)) {
 
 Push-Location $InstanceDir
 try {
+    Write-CeLog "Starting packwiz update with: $JavaPath"
     & $JavaPath -jar $bootstrapPath $packUrl
-    exit $LASTEXITCODE
+    $installerExitCode = $LASTEXITCODE
+    Write-CeLog "Packwiz update exited with code $installerExitCode."
 }
 finally {
     Pop-Location
 }
+
+exit $installerExitCode

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "ce-prelaunch.ps1"
-hash = "094d63d974e3962b95bdb6135d12712141d3f32296b5b07b591c515d3ae91309"
+hash = "f4fae48650514b4b47986c96d7a095bee9f607ca44935862acc1365662372a48"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
