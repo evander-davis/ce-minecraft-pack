@@ -28,6 +28,14 @@ Run the pack validation before publishing:
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Test-Pack.ps1
 ```
 
+Build the one-time Prism import ZIP with:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Build-Prism-Starter.ps1
+```
+
+The generated ZIP is written under `dist/`. On its first launch, the included pre-launch script looks for the existing CurseForge `C&E 1.21.1` profile and copies player-owned data into Prism. It copies rather than moves, and never deletes the CurseForge copy.
+
 ## Player-owned files
 
 The updater must never manage the following player state:
@@ -58,4 +66,4 @@ JARs without a matching `.pw.toml` file under `mods/` are served directly from t
 "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://evander-davis.github.io/ce-minecraft-pack/pack.toml
 ```
 
-The initial Prism instance and bootstrap JAR should be distributed separately from the Pages pack source. After that one-time import, packwiz updates the same instance before every launch.
+The initial Prism instance is distributed as a GitHub Release asset. After that one-time import, its pre-launch script migrates personal data once and packwiz updates the same instance before every launch.

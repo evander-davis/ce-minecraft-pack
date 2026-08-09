@@ -8,6 +8,9 @@
 README.md
 Invoke-Packwiz.ps1
 Test-Pack.ps1
+Build-Prism-Starter.ps1
+/prism/
+/dist/
 *.zip
 *.mrpack
 

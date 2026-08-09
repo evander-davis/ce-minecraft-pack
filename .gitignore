@@ -6,6 +6,8 @@
 .packwiz/
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
+/dist/
+/prism/minecraft/packwiz-installer-bootstrap.jar
 
 # OS/editor files
 .DS_Store
