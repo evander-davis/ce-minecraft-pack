@@ -5,7 +5,12 @@ $ErrorActionPreference = 'Stop'
 $distRoot = Join-Path $PSScriptRoot 'dist'
 $stagingRoot = Join-Path $distRoot '.prism-staging'
 $minecraftRoot = Join-Path $stagingRoot 'minecraft'
-$outputPath = Join-Path $distRoot 'C&E 1.21.1 Prism Starter-1.2.0.zip'
+$packDefinition = Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot 'pack.toml')
+if ($packDefinition -notmatch '(?m)^version\s*=\s*"([^"]+)"\s*$') {
+    throw 'Could not read the version from pack.toml.'
+}
+$packVersion = $Matches[1]
+$outputPath = Join-Path $distRoot "C&E 1.21.1 Prism Starter-$packVersion.zip"
 $bootstrapUrl = 'https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar'
 
 if (Test-Path -LiteralPath $stagingRoot) {

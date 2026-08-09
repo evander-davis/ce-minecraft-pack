@@ -1,6 +1,6 @@
 # C&E 1.21.1 packwiz pack
 
-This directory is the source of truth for C&E 1.21.1 version 1.2.0. It was imported from the CurseForge export `C&E 1.21.1-1.2.0.zip`.
+This directory is the source of truth for C&E 1.21.1. It was initially imported from the CurseForge export `C&E 1.21.1-1.2.0.zip`; the current version is declared in `pack.toml`.
 
 The pack uses CurseForge metadata for publicly hosted dependencies and serves the C&E-specific compatibility JARs directly with the pack. The live CurseForge instance is not used as pack source.
 

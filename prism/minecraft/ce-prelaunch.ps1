@@ -1,15 +1,28 @@
-param(
-    [Parameter(Mandatory = $true)]
-    [string] $InstanceDir,
-
-    [Parameter(Mandatory = $true)]
-    [string] $JavaPath
-)
+param()
 
 $ErrorActionPreference = 'Stop'
+$InstanceDir = $PSScriptRoot
 $packUrl = 'https://evander-davis.github.io/ce-minecraft-pack/pack.toml'
 $markerPath = Join-Path $InstanceDir '.ce-personal-data-migrated'
 $logPath = Join-Path $InstanceDir 'ce-prelaunch.log'
+
+$instanceConfigPath = Join-Path (Split-Path -Parent $InstanceDir) 'instance.cfg'
+if (-not (Test-Path -LiteralPath $instanceConfigPath -PathType Leaf)) {
+    throw "Prism instance configuration is missing: $instanceConfigPath"
+}
+
+$javaSetting = Get-Content -LiteralPath $instanceConfigPath |
+    Where-Object { $_ -like 'JavaPath=*' } |
+    Select-Object -First 1
+
+if (-not $javaSetting) {
+    throw 'Prism has not recorded a Java path for this instance. Open Edit > Settings > Java, run Auto-detect, and select Java 21.'
+}
+
+$JavaPath = $javaSetting.Substring('JavaPath='.Length).Trim()
+if (-not (Test-Path -LiteralPath $JavaPath -PathType Leaf)) {
+    throw "Prism's configured Java executable was not found: $JavaPath"
+}
 
 function Write-CeLog {
     param([string] $Message)
