@@ -1899,7 +1899,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d603b1fbfdbc5ec69848e5d3fde577259dedeb0f4fa8ca3261c24b4a31605639"
+hash = "49e15ff7d3eb72d06b812432fbd50d4687d5de60f22a7b6b84b551dc7a3fec7d"
 metafile = true
 
 [[files]]
@@ -2123,12 +2123,12 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "ff0b2e2116e40733173c4e6654e838e196cd227f75533befd442b4e8c38b0c79"
+hash = "e9561866bb1c30847819680ad833e407572bdd8b04d1b11d25c00fbb4e25679d"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "9421934b10433b6a421bd7c2d38a3c59023c316f17a4e9d7ce6152e7e039da85"
+hash = "32336a0ac67be3a466e581268aafaf859174ce9389addd43bd9d50d757148118"
 metafile = true
 
 [[files]]
