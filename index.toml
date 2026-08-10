@@ -1524,6 +1524,11 @@ hash = "ea07c3191498f67ca0b388aaaeafc6c9339dbffd3e6cbd1888bd9904da59c1db"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
+metafile = true
+
+[[files]]
 file = "mods/ati-structures.pw.toml"
 hash = "34df2a50396be575739b94a70b36c23586aa3e31d90aab71f2a1ea7060cacf26"
 metafile = true
@@ -1584,6 +1589,11 @@ file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.1.jar"
 hash = "0f849259e8acd29c50c4db661e843ab958bb9796fdd0e909e24afcb0f5787d90"
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
 metafile = true
@@ -1599,6 +1609,11 @@ hash = "b66c76dd9148686b0bccc5166839892b2442197504510bd9cca1306755a18ad1"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
+metafile = true
+
+[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "5c0fb5558f40b2eadcda6d7035961f48fa4c7ff24b0b440e59ba505edff97930"
 metafile = true
@@ -1609,13 +1624,38 @@ hash = "65320f764a209d01bcda47982746526a291f5823f5773c4855c33e346c4acdbb"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
+metafile = true
+
+[[files]]
+file = "mods/create-broken-bad-fabric.pw.toml"
+hash = "5117f179779ec5be73a5d36dc5055e1aaafe97672e9b39d39b46b0d433cc27aa"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
 metafile = true
 
 [[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
+metafile = true
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "6fb1b211e2501d43628ae5d1b7c65616341235d39a5b5f608cf0a06a350c1e21"
+hash = "9cb87d122e89fdf3173eea53030ee2f53be0b78620b79d79ef664ae7aa18807c"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-and-desires.pw.toml"
+hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
@@ -1634,8 +1674,33 @@ hash = "6cf57a4d0b0d2f7bc04196d22719ca676286d4c1d4435241b7fe9512313a7332"
 metafile = true
 
 [[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
+metafile = true
+
+[[files]]
 file = "mods/create-oh-the-biomes-weve-gone-compat.pw.toml"
 hash = "31f269762ab620d579996000d83d4c66d2e7f8a989b408afe3b9015f068984bb"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
+metafile = true
+
+[[files]]
+file = "mods/create-radars.pw.toml"
+hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+hash = "0c54dcc8b75965f7d0faf9b7f9b833ef0e7a214a56c740d1ee7baff4467d0819"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "84cff9a09538552608e32a14b4f7f37d5ac0f4cface3953e68c3af5104217554"
 metafile = true
 
 [[files]]
@@ -1685,6 +1750,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "ebb3df18070c94169933965dc6ef11ea68adb2b362623417e6b129f0af9a1bbe"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
+hash = "d2abefd9997328f0fdc8b36f9386438bee89889f58e878f290e9a9c8db8b1b5c"
 metafile = true
 
 [[files]]
@@ -2052,6 +2122,16 @@ hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
 
 [[files]]
+file = "mods/petrolpark.pw.toml"
+hash = "ff0b2e2116e40733173c4e6654e838e196cd227f75533befd442b4e8c38b0c79"
+metafile = true
+
+[[files]]
+file = "mods/petrols-parts.pw.toml"
+hash = "9421934b10433b6a421bd7c2d38a3c59023c316f17a4e9d7ce6152e7e039da85"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "a80d243759a5998d1f61cab61a9769526c21e1a9ac2f328ec1f213bb97311bfe"
 metafile = true
@@ -2078,12 +2158,17 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "9f0a36fc8540ac5d4b9fc3944b5dd4c0e097d0a189f84a95efc5f77cfd891c1f"
+metafile = true
+
+[[files]]
+file = "mods/rpl.pw.toml"
+hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
 metafile = true
 
 [[files]]
