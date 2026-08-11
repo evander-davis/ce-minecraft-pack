@@ -1589,6 +1589,10 @@ file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.1.jar"
 hash = "0f849259e8acd29c50c4db661e843ab958bb9796fdd0e909e24afcb0f5787d90"
 
 [[files]]
+file = "mods/ce_rain_everywhere-1.0.0.jar"
+hash = "f3afc384db3f904ed9f0dd12c0c8f6ee0818d24bec1f5bcf4b1ba0b03bc42cfd"
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -1679,6 +1683,11 @@ hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
 metafile = true
 
 [[files]]
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "ec65f48e74ac39be1d5a99e0bc74fd1013abd9efcf361e52043990ff5fba4c2b"
+metafile = true
+
+[[files]]
 file = "mods/create-oh-the-biomes-weve-gone-compat.pw.toml"
 hash = "31f269762ab620d579996000d83d4c66d2e7f8a989b408afe3b9015f068984bb"
 metafile = true
@@ -1709,8 +1718,8 @@ hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
-file = "mods/createenchantablemachineryfortune-1.0.0+mc1.21.1-neoforge.jar"
-hash = "756178253877ad571807476b8ad5537bf3cc9424fd0fe9dae6fb0382a636d7a6"
+file = "mods/createenchantablemachineryfortune-1.1.0+mc1.21.1-neoforge.jar"
+hash = "d6b1817a692c9e8a229a70e8925aca9558b6de268d245b4c5fc9f20ccb7f3f35"
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
@@ -2254,6 +2263,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
+metafile = true
+
+[[files]]
+file = "mods/tfmg-liquid-fuel-compat.pw.toml"
+hash = "fbc7f7e9534c636b09d0e4f2a02cccc004f2093ff3f8cd0312e0221a5df26810"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "TFMG Liquid Fuel Compat"
+filename = "tfmg_liquid_fuel_compat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6335eeef2386ee6dceae5d316773f204249bd782"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7974657
+project-id = 1523102

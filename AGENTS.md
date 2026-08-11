@@ -10,11 +10,13 @@ These instructions apply to every change in this repository.
 - The production packwiz URL is `https://evander-davis.github.io/ce-minecraft-pack/pack.toml`.
 - The checked-in Prism starter source is under `prism/`. Generated Prism ZIPs belong under ignored `dist/` and, when released, as GitHub Release assets.
 - The runtime pre-launch script is `ce-prelaunch.ps1` at the repository root. Packwiz manages it after the first successful install, and the Prism starter builder copies it into new instances.
+- Custom mod source projects on the maintainer workstation live beside this repository under `C:\Documents\minecraft`. In particular, rebuild `mods/createenchantablemachineryfortune-*.jar` from `C:\Documents\minecraft\CreateEnchantableMachineryFortune`, and rebuild `mods/ce_rain_everywhere-*.jar` from `C:\Documents\minecraft\ce-rain-everywhere`. Use the Java 21 Gradle wrapper from the Fortune project for either build; never reverse-engineer or edit the checked-in JAR directly.
 
 ## Required update process
 
 1. Start from an up-to-date `main` branch and keep unrelated or player-created files out of the repository.
 2. Make pack changes only in this repository. For a CurseForge mod, use packwiz metadata rather than committing its JAR when packwiz can resolve it. For a private/custom mod, place only its active JAR in `mods/` and remove the superseded JAR.
+   When a custom JAR changes, compile and test its source project first, copy the resulting release JAR into `mods/`, and keep its filename/version synchronized with the source project's `gradle.properties`.
 3. Run packwiz through the repository wrapper, for example:
 
    ```powershell

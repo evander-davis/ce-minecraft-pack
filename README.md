@@ -54,6 +54,8 @@ The updater must never manage the following player state:
 
 JARs without a matching `.pw.toml` file under `mods/` are served directly from this pack. Keep only the active version of each custom mod here. Superseded builds belong in release archives, not beside the active pack.
 
+The editable sources for the custom Fortune/refinement and biome-precipitation JARs are kept on the maintainer workstation at `C:\Documents\minecraft\CreateEnchantableMachineryFortune` and `C:\Documents\minecraft\ce-rain-everywhere`. Build those projects with Java 21, then copy only their release JARs into this repository's `mods/` directory.
+
 Some third-party CurseForge projects disable downloads through other launchers. Where the author also publishes on Modrinth, this pack uses that official source. For restricted projects with no official alternate host, the Prism pre-launch script copies the exact hash-verified JAR from the player's existing CurseForge `C&E 1.21.1` profile. If that profile is absent, packwiz may require a one-time manual download from CurseForge; do not rehost those JARs in this public repository.
 
 ## Publishing
