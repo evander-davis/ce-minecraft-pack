@@ -1309,6 +1309,10 @@ file = "config/rightclickharvest.json5"
 hash = "6eb5169563472ae96184c94e9f42ff7d76fdba403ed3190ffb308e817ea0a21e"
 
 [[files]]
+file = "config/runelic.json"
+hash = "9b3a763eeedb80615637927be16dbdf588b80211fc78a549d5867191be605e1d"
+
+[[files]]
 file = "config/sliceanddice-client.toml"
 hash = "3a5b0f383352483c0afb34cad7800ab7757b70d0028e6edbdb4c67b1762b829d"
 
