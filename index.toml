@@ -1594,8 +1594,8 @@ file = "mods/ce-worldgen-compat-1.0.1.jar"
 hash = "064b654894576e6e548d8649254e002f18d53526494f59db780a8e8965bd38d2"
 
 [[files]]
-file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.1.jar"
-hash = "0f849259e8acd29c50c4db661e843ab958bb9796fdd0e909e24afcb0f5787d90"
+file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.2.jar"
+hash = "9359a480f08f289bb942454f03e51e0c7903be1b36597615fe6fa6334cd29966"
 
 [[files]]
 file = "mods/ce_rain_everywhere-1.0.0.jar"

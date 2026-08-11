@@ -1,11 +1,11 @@
 name = "C&E 1.21.1"
-version = "1.4.2"
+version = "1.4.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3ca3061cc8e8a3a5896f74857f3c560b3a2a03dee77011358a4eb9dae530e147"
+hash = "3438c8e0f9a14fbc839971c7eab8d150246c3970b780a96c09bc292528ff2c81"
 
 [versions]
 minecraft = "1.21.1"
