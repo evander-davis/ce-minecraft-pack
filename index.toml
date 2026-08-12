@@ -1876,11 +1876,6 @@ hash = "37c3d507be086258aec8a0814224578a1c665749adbb0332d33c32a684086d94"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "6b90d6d869cee12f1e57d33e4425be01a583f7969b80b84e27bc2d73313cb6a6"
-metafile = true
-
-[[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "763ed0c115b2b9a1e37e38cb153748c9c3f3c31869fd3d56acfaad54c63e78af"
 metafile = true
@@ -1943,11 +1938,6 @@ metafile = true
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "15d0aa0c6da198fde776ea62dc5f86ab17342d94ddb15ccb73710bf98dacfd6d"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "5fe986225bb3dac6e7e4dc19d4d1c6d0e7a1ece5e7e07999bf17ddccf09f6348"
 metafile = true
 
 [[files]]
