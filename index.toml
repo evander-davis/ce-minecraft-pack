@@ -2031,8 +2031,8 @@ hash = "85b0bb55b80d196b879fe6755cd7cc509f6ecd5706bb25acd43826da5335dd57"
 metafile = true
 
 [[files]]
-file = "mods/mining_dimensions-neoforge-1.21.1-0.2.4.jar"
-hash = "7ca91f0c2002db24b5cbd5a493716f238851577ee3777be017ce589651a4c366"
+file = "mods/mining_dimensions-neoforge-1.21.1-0.2.5.jar"
+hash = "360db3c92a79aaef990d7d1b9ea0e019c037f92b7c96107089b3c07576c1dff7"
 
 [[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
