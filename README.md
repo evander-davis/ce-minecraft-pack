@@ -4,6 +4,24 @@ This directory is the source of truth for C&E 1.21.1. It was initially imported 
 
 The pack uses CurseForge metadata for publicly hosted dependencies and serves the C&E-specific compatibility JARs directly with the pack. The live CurseForge instance is not used as pack source.
 
+## Pack distribution
+
+The raw Packwiz pack files are committed to the repository root on `main` and published by GitHub Pages at:
+
+```text
+https://evander-davis.github.io/ce-minecraft-pack/
+```
+
+`pack.toml` is the production entry point. It references `index.toml`, which in turn references the configuration, custom JARs, and mod metadata files served from the same Pages location. Prism runs Packwiz against `https://evander-davis.github.io/ce-minecraft-pack/pack.toml` before each launch.
+
+Do not upload third-party mod JARs to this repository when Packwiz can resolve them from CurseForge. Add a CurseForge-hosted mod with metadata instead:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Invoke-Packwiz.ps1 cf add <project-slug-or-url>
+```
+
+This creates a small `mods/<project>.pw.toml` file containing the CurseForge project ID, file ID, filename, and hash. Commit that metadata file and the refreshed `index.toml`; Packwiz Installer will download the JAR directly from CurseForge and can resolve future updates with `Invoke-Packwiz.ps1 update <project>`. If CurseForge blocks third-party downloads, follow the official-alternate-host or hash-verified local-copy process under [Custom mods](#custom-mods).
+
 ## Local tooling
 
 The workspace-local packwiz executable is located at:
