@@ -1582,8 +1582,8 @@ file = "mods/ce-data-fixes-1.0.0.jar"
 hash = "347c0b98719b59f7d3b002ab9ae2b14f0d5d054e5cde25eecb53b7792478d202"
 
 [[files]]
-file = "mods/ce-loot-integration-1.0.0.jar"
-hash = "b6014f34586c040495eda4d8c5443ff5ac2332e73abf863625875ee481b4a9b1"
+file = "mods/ce-loot-integration-1.1.0.jar"
+hash = "71bf47cf2be16ca51101a8d4d1269f5c51aa6a8dbba00006e54175917801c79a"
 
 [[files]]
 file = "mods/ce-passive-mythics-1.1.0.jar"
@@ -1592,6 +1592,10 @@ hash = "f5a15d16e3cbc1bff7199b34699aca9dea31d08f3c4fed17c06c1ea033db25fa"
 [[files]]
 file = "mods/ce-worldgen-compat-1.0.1.jar"
 hash = "064b654894576e6e548d8649254e002f18d53526494f59db780a8e8965bd38d2"
+
+[[files]]
+file = "mods/ce_mystical_expansion-neoforge-1.21.1-1.0.0.jar"
+hash = "cb5031e24f4b509eb1613c7b58c44c841fecd19299447233820dcaebb12bff95"
 
 [[files]]
 file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.4.jar"
