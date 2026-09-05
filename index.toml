@@ -1578,6 +1578,10 @@ hash = "cafd81dc7a13b33a385a6ebc11b63b002bd578d64e8fe4d3ce51b1a6163e49a5"
 metafile = true
 
 [[files]]
+file = "mods/ce-crystal-enchanting-1.0.0.jar"
+hash = "03007f0c2c2f283f2f1f184e4ed0abb2b9e844757e69a14ca0101ba9eee07371"
+
+[[files]]
 file = "mods/ce-data-fixes-1.0.0.jar"
 hash = "347c0b98719b59f7d3b002ab9ae2b14f0d5d054e5cde25eecb53b7792478d202"
 
@@ -1845,6 +1849,11 @@ hash = "201b5f2a7c20c5f71b248b6dad8ce3e69a3bea07fc7a8f0fd0f7e8b2d494d8e4"
 metafile = true
 
 [[files]]
+file = "mods/gateways-to-eternity.pw.toml"
+hash = "a918d214c27222c510f6526721a1c41b0111221ac348c7d20b2a28d4691dfdd4"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
@@ -2044,6 +2053,11 @@ hash = "a24c2abc1668181c40097d14889286ab50b426c8c6470ec2dc8116249d020b24"
 metafile = true
 
 [[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "9937e9a35461a0d55b574bb3e363c342b033a937f3e99365697886df6ce5ba73"
+metafile = true
+
+[[files]]
 file = "mods/moogs-end-structures.pw.toml"
 hash = "d320f7c6591bce3b9e6a808db01e57a1c337422209ee53ffa1d6d84383c24bde"
 metafile = true
@@ -2111,6 +2125,11 @@ metafile = true
 [[files]]
 file = "mods/nyctography.pw.toml"
 hash = "0fa2bd5bdf0edfb930a18849a49fdf049fb100b5c8eaacb4f7f8c24827fa47f4"
+metafile = true
+
+[[files]]
+file = "mods/occultism.pw.toml"
+hash = "3a3790ce534379a2bdbe963419c4463349e4273d9e51991970822d84c42eb390"
 metafile = true
 
 [[files]]
@@ -2236,6 +2255,11 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "924590dd9b32e32f209e4e1986347b90355c07763e9a27dc79caa9cb12efeab5"
+metafile = true
+
+[[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "1a610a4a75169fbebeece88a8e611fa0ad432b8661754a519166b23a6d643e36"
 metafile = true
 
 [[files]]

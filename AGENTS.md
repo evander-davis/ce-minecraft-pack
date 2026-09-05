@@ -11,6 +11,7 @@ These instructions apply to every change in this repository.
 - The checked-in Prism starter source is under `prism/`. Generated Prism ZIPs belong under ignored `dist/` and, when released, as GitHub Release assets.
 - The runtime pre-launch script is `ce-prelaunch.ps1` at the repository root. Packwiz manages it after the first successful install, and the Prism starter builder copies it into new instances.
 - Custom mod source projects on the maintainer workstation live beside this repository under `C:\Documents\minecraft`. In particular, rebuild `mods/createenchantablemachineryfortune-*.jar` from `C:\Documents\minecraft\CreateEnchantableMachineryFortune`, rebuild `mods/ce_rain_everywhere-*.jar` from `C:\Documents\minecraft\ce-rain-everywhere`, rebuild `mods/ce_mystical_rebalance-*.jar` from `C:\Documents\minecraft\ce-mystical-rebalance`, and rebuild `mods/mining_dimensions-*.jar` from `C:\Documents\minecraft\mining-dimensions-26.2`. Use Java 21 and the source project's Gradle wrapper; never reverse-engineer or edit the checked-in JAR directly.
+- On this Linux workstation, the separate Crystal Flower addon source is `/home/evand/Work/ce-crystal-enchanting`. Rebuild `mods/ce-crystal-enchanting-*.jar` there with Java 21 and `./gradlew build`, then run `./gradlew runGameTestServer`. Never distribute its development-only `-smoketest.jar`. New compatibility features belong in small standalone addons, not modified copies of upstream mods.
 
 ## Required update process
 

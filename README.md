@@ -89,3 +89,15 @@ Some third-party CurseForge projects disable downloads through other launchers. 
 ```
 
 The initial Prism instance is distributed as a GitHub Release asset. After that one-time import, its pre-launch script migrates personal data once and packwiz updates the same instance before every launch.
+
+## Crystal Flower enchanting integration (1.4.11)
+
+Occultism and Gateways to Eternity are referenced through their CurseForge uploads, together with the required Modonomicon and SmartBrainLib releases.
+
+`ce-crystal-enchanting-1.0.0.jar` is a standalone C&E addon. A Bumblezone Crystalline Flower whose base occupies a valid, unobstructed bookshelf position contributes +5 Eterna, +10 Quanta, and +2 enchanting hints. Normal Apothic stat and player caps apply. Grown flowers count once per plant; keep the flower's normal support block beneath it (for example, amethyst).
+
+The enchanting screen gains a **Reroll (5 XP)** button. Each reroll costs five experience points, preserves the item and lapis, and updates the player's persistent enchanting seed. Creative mode is free. The server validates the open table, flower placement, item, and XP before rerolling.
+
+The editable addon source on this Linux workstation is `/home/evand/Work/ce-crystal-enchanting`, beside this pack repository. Build with Java 21 using `./gradlew build` and run `./gradlew runGameTestServer` before copying its release JAR into `mods/`. Never ship the development `-smoketest.jar`.
+
+On Linux, the repository wrapper selects `../.toolchains/packwiz/packwiz`. With PowerShell installed, run `pwsh -NoProfile -File ./Invoke-Packwiz.ps1 refresh` and `pwsh -NoProfile -File ./Test-Pack.ps1` for the same validation used on Windows.

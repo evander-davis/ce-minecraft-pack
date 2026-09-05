@@ -6,6 +6,9 @@ $ErrorActionPreference = 'Stop'
 
 $workspaceRoot = Split-Path -Parent $PSScriptRoot
 $packwiz = Join-Path $workspaceRoot '.toolchains\packwiz\packwiz.exe'
+if ($IsLinux -or $IsMacOS) {
+    $packwiz = Join-Path $workspaceRoot '.toolchains/packwiz/packwiz'
+}
 $cache = Join-Path $workspaceRoot '.toolchains\packwiz-cache'
 $config = Join-Path $workspaceRoot '.toolchains\packwiz-config.toml'
 
