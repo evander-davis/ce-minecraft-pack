@@ -1,0 +1,13 @@
+name = "EventsLib"
+filename = "eventslib-1.0.57.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "948f7a477aff225db827c4deee43ca65bc019961"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6831134
+project-id = 1122002

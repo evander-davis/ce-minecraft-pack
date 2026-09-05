@@ -1528,6 +1528,11 @@ hash = "ea07c3191498f67ca0b388aaaeafc6c9339dbffd3e6cbd1888bd9904da59c1db"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "2326c6cb8666b4f3bd007d0d468f531d3f0779446f327d9639f36514135a8b1b"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
@@ -1573,6 +1578,11 @@ hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
+file = "mods/caelus.pw.toml"
+hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
+metafile = true
+
+[[files]]
 file = "mods/castle-in-the-sky-the-fairytale-of-laputa.pw.toml"
 hash = "cafd81dc7a13b33a385a6ebc11b63b002bd578d64e8fe4d3ce51b1a6163e49a5"
 metafile = true
@@ -1586,8 +1596,8 @@ file = "mods/ce-data-fixes-1.0.0.jar"
 hash = "347c0b98719b59f7d3b002ab9ae2b14f0d5d054e5cde25eecb53b7792478d202"
 
 [[files]]
-file = "mods/ce-loot-integration-1.1.0.jar"
-hash = "71bf47cf2be16ca51101a8d4d1269f5c51aa6a8dbba00006e54175917801c79a"
+file = "mods/ce-loot-integration-1.2.0.jar"
+hash = "a66ed3df8142fd64004a80c0cbb00c5d6527f2ac1b4d23c1de8c8845ba7a254a"
 
 [[files]]
 file = "mods/ce-passive-mythics-1.1.0.jar"
@@ -1809,8 +1819,18 @@ hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
+file = "mods/eventslib.pw.toml"
+hash = "d9c1ace0dc213ac6a2d45059968a053fa523e8a5fa142925fe4e305645867f43"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "9f5e29573d64c3e33e372a2d2140335bcb1d84c3afcfc0933cad258acbd4178e"
+metafile = true
+
+[[files]]
+file = "mods/fargos-talismans.pw.toml"
+hash = "7660e825373817ec644da0fe55b265daa2fa501ca85d422066ab074851a1b229"
 metafile = true
 
 [[files]]
@@ -2053,6 +2073,11 @@ hash = "a24c2abc1668181c40097d14889286ab50b426c8c6470ec2dc8116249d020b24"
 metafile = true
 
 [[files]]
+file = "mods/mob-grinding-utils.pw.toml"
+hash = "ed334bd8ff25757d72ac569a854f0a846b786d7704c2c36ebd95c00b97c7a6fe"
+metafile = true
+
+[[files]]
 file = "mods/modonomicon.pw.toml"
 hash = "9937e9a35461a0d55b574bb3e363c342b033a937f3e99365697886df6ce5ba73"
 metafile = true
@@ -2213,6 +2238,16 @@ hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "a63a24d0d6357d1ca0f72dc60351ff2c18d708be6ee1f6f8f9dcfd5f25983ceb"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "21dd7698a64843042c87d9fca3bc742715d3cbdfc5d258053da81d6e7409f69c"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
 metafile = true
@@ -2240,6 +2275,11 @@ metafile = true
 [[files]]
 file = "mods/serene-shrubbery.pw.toml"
 hash = "ae8690ce81bf487b77a1ba4dc778a443336c3fd6d4f215de350fed72b7d26ae9"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "4f38a1932a493c7b100f13356c65bf1cc4d43e4cb3430d428202452d1d5800a0"
 metafile = true
 
 [[files]]

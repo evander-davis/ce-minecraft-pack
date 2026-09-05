@@ -101,3 +101,13 @@ The enchanting screen gains a **Reroll (5 XP)** button. Each reroll costs five e
 The editable addon source on this Linux workstation is `/home/evand/Work/ce-crystal-enchanting`, beside this pack repository. Build with Java 21 using `./gradlew build` and run `./gradlew runGameTestServer` before copying its release JAR into `mods/`. Never ship the development `-smoketest.jar`.
 
 On Linux, the repository wrapper selects `../.toolchains/packwiz/packwiz`. With PowerShell installed, run `pwsh -NoProfile -File ./Invoke-Packwiz.ps1 refresh` and `pwsh -NoProfile -File ./Test-Pack.ps1` for the same validation used on Windows.
+
+## Exploration and accessory loot (1.4.12)
+
+Added Mob Grinding Utils, Fargo's Talismans, Relics, Artifacts, and Reliquified Artifacts as CurseForge references, with Caelus, EventsLib, and OctoLib dependencies. Artifacts is pinned to **13.2.3**, which Reliquified Artifacts 1.0.8 requires exactly.
+
+The existing `ce-loot-integration` addon is updated to **1.2.0**. It preserves the existing magic-loot integrations and adds tier-aware accessory coverage for 550 structure chest tables, including 249 with nonstandard paths. Relics and Reliquified Artifacts share one roll with the author's biome/dimension selection; unusual chest paths use curated location-themed pools. At default settings, the added accessory chances are 3% in common/storage chests, 8% in guarded rooms, 12% in treasure, and 16% in endgame rewards. Native vanilla loot remains unchanged.
+
+Fargo's existing integrations are excluded from the extra rolls. New base chances are 3%, 5%, 6%, and 8% respectively; legendary bases appear only in the endgame pool at 0.8% overall. Finished talismans are not injected. Decorative containers, junk, progression dispensers, spawners, entity loot, and nested helper tables are excluded.
+
+Editable source: `/home/evand/Projects/minecraft/ce_pack_tools/`. Build through `Build-LootAddon.ps1` from a hash-verified canonical inventory and run its regression validation. The generated `META-INF/ce-accessory-loot-audit.json` inside the addon records exact targets, probabilities, themes, and exclusions. Prism/Minecraft validation launches use workspace 2.
