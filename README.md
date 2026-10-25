@@ -76,6 +76,10 @@ The editable sources for the custom Fortune/refinement and biome-precipitation J
 
 Some third-party CurseForge projects disable downloads through other launchers. Where the author also publishes on Modrinth, this pack uses that official source. For restricted projects with no official alternate host, the Prism pre-launch script copies the exact hash-verified JAR from the player's existing CurseForge `C&E 1.21.1` profile. If that profile is absent, packwiz may require a one-time manual download from CurseForge; do not rehost those JARs in this public repository.
 
+EventsLib uses STS15's official Modrinth release 1.0.56 because its CurseForge
+download is excluded from the API. This satisfies Fargo's Talismans 2.3.1's
+minimum EventsLib version of 1.0.55 and supports automatic fresh installations.
+
 ## Publishing
 
 1. Push this directory to `https://github.com/evander-davis/ce-minecraft-pack`.

@@ -1,13 +1,13 @@
 name = "EventsLib"
-filename = "eventslib-1.0.57.jar"
+filename = "eventslib-1.0.56.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "948f7a477aff225db827c4deee43ca65bc019961"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/fMB3RxAq/versions/8Lnwkmkc/eventslib-1.0.56.jar"
+hash-format = "sha512"
+hash = "dacae387a0dad64e1e5fa1ad83890d2de33ec9f3cbc7b67e16e4a29e10e23e7d0ce9bab48055aa9f4a8ced29e00e33d3f8d617878e3b252404dedb5071ad748d"
 
 [update]
-[update.curseforge]
-file-id = 6831134
-project-id = 1122002
+[update.modrinth]
+mod-id = "fMB3RxAq"
+version = "8Lnwkmkc"

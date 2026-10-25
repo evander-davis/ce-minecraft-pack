@@ -1825,7 +1825,7 @@ metafile = true
 
 [[files]]
 file = "mods/eventslib.pw.toml"
-hash = "d9c1ace0dc213ac6a2d45059968a053fa523e8a5fa142925fe4e305645867f43"
+hash = "6db0f2b512ebfdbdb3da82ea344a939ed8312328b1453ad2e7d9c1f40ed8feba"
 metafile = true
 
 [[files]]
