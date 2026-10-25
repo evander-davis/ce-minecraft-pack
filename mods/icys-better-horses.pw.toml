@@ -1,0 +1,13 @@
+name = "Icy's Better Horses"
+filename = "icys-better-horses-2.1.7-neo-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f415a8c4696a29ab88a16832c9bbc1b00ecf284c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9320215
+project-id = 1527172
