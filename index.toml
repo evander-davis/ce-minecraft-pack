@@ -1834,6 +1834,11 @@ hash = "6db0f2b512ebfdbdb3da82ea344a939ed8312328b1453ad2e7d9c1f40ed8feba"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "e206e53e79c196615bebfc9f5dfa943c11c1361e1c7dc4f8f952c86b95e0f0ca"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "9f5e29573d64c3e33e372a2d2140335bcb1d84c3afcfc0933cad258acbd4178e"
 metafile = true
@@ -2158,6 +2163,11 @@ hash = "8f3fd2fdf639b8f91870c5a98df5d5ac46c7e0a946ee562c2194f49961cd930e"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 hash = "c183fb8843a6c04da0417e5d51c62b2def40b994f0e9f1176243877b104d88a8"
 metafile = true
@@ -2365,6 +2375,11 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "db845eb158247bde04edc727945fbf67c6a46f0cbe4d2a1e9142263c022c73f8"
+metafile = true
+
+[[files]]
+file = "mods/super-factory-manager.pw.toml"
+hash = "c2ce0fb5f77dad39fc9ef103b3a30a8131faa202ab344cb98b399f2704ba8bc2"
 metafile = true
 
 [[files]]
