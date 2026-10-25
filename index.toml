@@ -1612,8 +1612,8 @@ file = "mods/ce_mystical_expansion-neoforge-1.21.1-1.0.0.jar"
 hash = "cb5031e24f4b509eb1613c7b58c44c841fecd19299447233820dcaebb12bff95"
 
 [[files]]
-file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.4.jar"
-hash = "6394ff18fc33ea1d8a9a8268e1523aabe2fbec763740385e1ddff3a6532959d2"
+file = "mods/ce_mystical_rebalance-neoforge-1.21.1-1.0.5.jar"
+hash = "f0d655b4b4890951ed64dfc951fbd742eafd73cd1c726f8ae215d7c73d530046"
 
 [[files]]
 file = "mods/ce_rain_everywhere-1.0.0.jar"
@@ -1627,6 +1627,11 @@ metafile = true
 [[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -2208,6 +2213,11 @@ hash = "c542b169bf7c70a0ac4f66c895499abd37aa4897e0c4295ddd3e6aaa72afaef4"
 metafile = true
 
 [[files]]
+file = "mods/pipez.pw.toml"
+hash = "03c2188c7c5aa4407964fd3bb20074b52eb2adf8897c3a22897cc037446450ce"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "a80d243759a5998d1f61cab61a9769526c21e1a9ac2f328ec1f213bb97311bfe"
 metafile = true
@@ -2429,12 +2439,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "03b30d68893aff0507d36044ab3b43e586f4412274b5de0abe193b9f4a754905"
+hash = "70e12b988f0efd4df56597d3f37fe37608584b876ff3e713e4f5d966a37a4a25"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "210cce3a74344d8ccbe0023ea0399b5573c5e622ae970d0cf81b753b18f1fc3f"
+hash = "62eaf7c193d20dbec89944f6e1401ce64a80d8d704830a988d24c1498d8316e2"
 metafile = true
 
 [[files]]
